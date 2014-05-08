@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>maven.micenna</groupId>
+    <groupId>com.micenna</groupId>
     <artifactId>micenna-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -28,7 +28,9 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.1</version>
                     <configuration>
-                        <compilerArguments>-Xlint:all</compilerArguments>
+                        <compilerArguments>
+                            <Xlint/>
+                        </compilerArguments>
                         <showWarnings>true</showWarnings>
                         <showDeprecation>true</showDeprecation>
                         <source>${java.source.version}</source>
